@@ -23,10 +23,10 @@ open-cv 4.2.0
 6.各色の点の重心点を算出し、各色点群と各色の重心点をつなぎクラスタリング状況を可視化します。  
 7.各点に対し、各色の最も距離が近い重心点に色を割り振りなおします。  
 8.4~7を繰り返し、すべての点の色が変化しなくなったら終了となり、結果をout2.pngとして出力します。  
-
-#sample
+  
+# Sample
 As an example, we have prepared target_input.png as the input image, out1.png as the intermediate generated black and white point cloud image, and out2.png as the final output image.  
 As the input image (target_input.png), you can see the pictures of 5 spherical objects, and in the final output image (out2.png), you can see that the 5 colored spherical objects are color-coded.  
-
+  
 例として、入力画像としてtarget_input.png、中間生成される白黒点群画像としてout1.png、最終出力画像としてout2.pngを用意しました。  
 入力画像(target_input.png)としては5個の球状の物体の写真を採用し、最終出力画像(out2.png)では5色の球状の物体が色分けされているのが分かると思います。  
